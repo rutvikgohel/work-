@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f7ff;
+  text-align: center;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: white;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e6cf6;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-buttons .btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.login { background-color: #2e6cf6; color: white; }
+.signup { background-color: #2e6cf6; color: white; }
+.post-job, .find-job { border: 1px solid #2e6cf6; background: white; }
+
+/* Hero Section */
+.hero {
+  padding: 60px 20px;
+  background: #dbeafe;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  color: black;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background: #2e6cf6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Categories */
+.categories {
+  padding: 40px;
+}
+
+.category-list button {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Companies */
+.companies {
+  padding: 40px;
+  background: white;
+}
+
+.company-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.company img {
+  width: 50px;
+  height: 50px;
+}
+
+.show-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2e6cf6;
+  color: white;
+  border: none;
+}
+
+/* Qualifications */
+.qualifications {
+  padding: 40px;
+}
+
+.qualification-list button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Contact */
+.contact {
+  padding: 20px;
+  background: #dbeafe;
+}
+
+.contact input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.get-started {
+  padding: 10px 20px;
+  background: #2e6cf6;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background: black;
+  color: white;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruiter Registration</title>
+  <link rel="stylesheet" href="Recuriter ragistration page.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="logo">Myjob</div>
+        <div class="menu">
+          <a href="#">Jobs</a>
+          <a href="#">Company</a>
+          <a href="#">Career</a>
+        </div>
+        <div class="actions">
+          <a href="#">Emp Login</a>
+          <a href="#">Emp Signup</a>
+        </div>
+      </div>
+      <div class="header1"><h1>Recruiter Registration</h1></div>
+  <div class="container">
+    <main>
+      <form class="registration-form">
+        <div class="form-group">
+          <label for="full-name">Full name<span>*</span></label>
+          <input type="text" id="full-name" placeholder="Enter your full name..." required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email<span>*</span></label>
+          <input type="email" id="email" placeholder="Enter your email..." required>
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number<span>*</span></label>
+          <input type="text" id="mobile" placeholder="Enter your mobile number..." required>
+        </div>
+        <div class="form-group">
+          <label for="company-name">Current Company Name<span>*</span></label>
+          <input type="text" id="company-name" placeholder="Enter your company name..." required>
+        </div>
+        <div class="form-group">
+          <label for="location">Current Location<span>*</span></label>
+          <input type="text" id="location" placeholder="Enter your current location..." required>
+        </div>
+        <div class="form-group">
+          <label for="designation">Your Designation<span>*</span></label>
+          <input type="text" id="designation" placeholder="Enter your designation..." required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password<span>*</span></label>
+          <input type="password" id="password" placeholder="Enter your password..." required>
+        </div>
+        <div class="form-group">
+          <label for="verification">Company Verification<span>*</span></label>
+          <div class="upload-section">
+            <button class="upload-btn">Company document verification</button>
+            <input type="text" id="verification" placeholder="Ex-Business Documents, ISO..." readonly>
+          </div>
+          <p class="file-info">File format – PDF, DOC, DOCx | File size – Min 5mb & Max 20 Mb</p>
+        </div>
+        <input type="checkbox" id="updates" checked>
+        <div class="form-group checkbox">
+          <label for="updates">Send me important updates & promotions via SMS, email, and WhatsApp</label>
+        </div>
+        <p class="terms">
+          By clicking Register, you agree to the 
+          <a href="#">Terms and Conditions</a> & 
+          <a href="#">Privacy Policy</a> of AlwaysApply
+        </p>
+        <button type="submit" class="btn register">Register now</button>
+        <p class="signup-options">or signup with</p>
+        <div class="social-buttons">
+          <button class="btn google">Google</button>
+          <button class="btn facebook">Facebook</button>
+          <button class="btn linkedin">LinkedIn</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>

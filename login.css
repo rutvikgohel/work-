@@ -1,0 +1,189 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+    margin:auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 25vh;
+      background-color: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 10px;
+    }
+
+    .header1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    .header1 h1 {
+      font-size: 28px;
+      margin: 0;
+      color: #333;
+    }
+
+    .header1 p {
+      font-size: 16px;
+      color: #777;
+      margin-top: 4px;
+    }
+
+    .form {
+       margin-top: 10px; 
+      width: 100%;
+      max-width: 400px;
+      text-align: left;
+      padding: 20px;
+    }
+
+    .form label {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 6px;
+      display: block;
+      font-weight: bold;
+      padding: 5px;
+    }
+
+    .form input[type="text"],
+    .form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .form .options {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .form .options label {
+      font-size: 14px;
+    }
+
+    .form .options a {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .form button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      color: white;
+      background-color: #3f51b5;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 10px;
+
+    }
+
+    .form button:hover {
+      background-color: #2e3c98;
+    }
+
+    .social-login {
+      position: relative;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .social-login p {
+      position: relative;
+      font-size: 16px;
+      margin: 0;
+      z-index: 1; /* Ensures the text is placed above the <hr> */
+    }
+
+    .line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      border: none;
+      border-top: 1px solid #000;
+      z-index: 1; /* Ensures the line is behind the text */
+    }
+
+    .social-login button {
+      padding: 10px;
+      margin: 0 6px;
+      border: none;
+      background-color: #f1f1f1;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .social-login button img {
+      height: 20px;
+    }
+
+    .register {
+      text-align: center;
+      margin-top: 12px;
+    }
+
+    .register a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .navigation {
+      width: 97%;
+      padding: 20px 40px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navigation .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #3f51b5;
+    }
+
+    .navigation .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navigation .menu a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    .navigation .actions a {
+      text-decoration: none;
+      color: #007bff;
+      font-size: 14px;
+      padding: 8px 16px;
+      border: 1px solid #007bff;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+
+    .navigation .actions a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }

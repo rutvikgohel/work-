@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post a Job</title>
+  <link rel="stylesheet" href="post job.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navigation">
+    <div class="logo">Myjob</div>
+    <div class="menu">
+      <a href="#">Jobs</a>
+      <a href="#">Company</a>
+      <a href="#">Career</a>
+    </div>
+    <div class="actions">
+      <a href="#">Emp Login</a>
+      <a href="#">Emp Signup</a>
+    </div>
+  </div>
+  <!-- Post a Job Section -->
+  <main class="post-job">
+    <div class="container">
+      <h2>Post a job</h2>
+      <p>Find the best talent for your company</p>
+      <form class="job-form">
+        <!-- Job Title and Company Name -->
+        <div class="form-row1">
+          <div class="form-group">
+            <label for="jobTitle">Job Title</label>
+            <input type="text" id="jobTitle" placeholder="Add job title, role vacancies etc">
+          </div>
+        </div>
+        <div class="form-row2">
+          <div class="form-group">
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" placeholder="Add job title, role vacancies etc">
+          </div>
+        </div>
+
+        <!-- Work Mode and Job Role -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="workMode">Work Mode</label>
+            <select id="workMode">
+              <option value="">Select...</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="jobRole">Job Role</label>
+            <select id="jobRole">
+              <option value="">Select...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Salary Fields -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="minSalary">Min Salary</label>
+            <div class="salary-input">
+              <input type="text" id="minSalary" placeholder="Minimum Salary...">
+              <span>INR</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="maxSalary">Max Salary</label>
+            <div class="salary-input">
+              <input type="text" id="maxSalary" placeholder="Maximum Salary...">
+              <span>INR</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vacancies and Job Level -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="vacancies">Vacancies</label>
+            <select id="vacancies">
+              <option value="">Select...</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="jobLevel">Job Level</label>
+            <select id="jobLevel">
+              <option value="">Select...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Location: Country and City -->
+        <h5>Location </h5><br>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="">Select...</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <select id="city">
+              <option value="">Select...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Job Description -->
+        <div class="form-group">
+          <label for="jobDescription">Job Description</label>
+          <textarea id="jobDescription" placeholder="Add your description..."></textarea>
+        </div>
+
+        <!-- Post Job Button -->
+        <button type="submit" class="btn post-job-btn">Post Job</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
